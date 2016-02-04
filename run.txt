@@ -1,0 +1,3 @@
+nosetests --with-xunit
+
+Then add a "Publish JUnit test result report" post build action, and fill in the "Test report XMLs" field with nosetests.xml (assuming that you ran nosetests in $WORKSPACE).
